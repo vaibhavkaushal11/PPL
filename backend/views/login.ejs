@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      text-align: center;
+    }
+
+    h1 {
+      padding: 20px;
+    }
+
+    form {
+      padding: 28px;
+    }
+
+    button {
+      background-color: #c9a91a;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 10%;
+      border-radius: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Welcome to the Login Page</h1>
+  <form action="/login" method="POST">
+    <label for="name">Username: </label>
+    <input type="text" id="name" name="name" required><br><br><br>
+    <label for="pass">Password:&nbsp</label>
+    <input type="password" id="pass" name="pass" required><br><br><br>
+    <button>Login</button>
+  </form>
+
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      text-align: center;
+    }
+
+    h1 {
+      padding: 20px;
+    }
+
+    form {
+      padding: 28px;
+    }
+
+    button {
+      background-color: #c9a91a;
+      color: black;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 10%;
+      border-radius: 20px;
+      font-size: 16px;
+    }
+
+    .button {
+      background-color: #8b8b8b;
+      color: white; 
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 10%;
+      border-radius: 20px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Welcome to the Registration Page</h1>
+  <form action="/register" method="POST">
+    <label for="fname">First Name: &nbsp&nbsp</label>
+    <input type="text" id="fname" name="fname" required><br><br><br>
+    <label for="lname">Last Name: &nbsp&nbsp</label>
+    <input type="text" id="lname" name="lname" required><br><br><br>
+    <label for="email">E-mail: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+    <input type="email" id="email" name="email" required><br><br><br>
+    <label for="pass">Password: &nbsp&nbsp&nbsp&nbsp </label>
+    <input type="password" id="pass" name="pass" required><br><br><br>
+    <!-- <a href="login.html"><button>Want to Login?</button></a>
+    <button>Register</button> -->
+    <a class="button" href="/login">Already Registered? Login</a>
+    <button>Register</button>
+  </form>
+
+</body>
+
+</html>
