@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import Modal from "react-modal";
 import Upload from "./Upload";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"; 
 import axios from "axios";
 import config from "../../config/config";
 
